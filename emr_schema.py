@@ -14,6 +14,10 @@ class EMRRecord(BaseModel):
     blood_pressure_systolic: int
     blood_pressure_diastolic: int
 
+    # NEW FIELDS FOR ANOMALY DETECTION
+    anomaly_score: Optional[float] = None
+    anomaly_status: Optional[str] = None
+
     @validator('gender')
     def validate_gender(cls, v):
         if v not in ["Male", "Female", "Other"]:

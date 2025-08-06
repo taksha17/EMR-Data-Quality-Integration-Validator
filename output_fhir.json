@@ -122,6 +122,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/93b88880-2996-4ab6-9ee8-d8c79de8e6a8"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "0c09c91b-8f6c-4e41-b915-9512cf17b103",
         "name": [
@@ -236,6 +256,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/0c09c91b-8f6c-4e41-b915-9512cf17b103"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -358,6 +398,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1f0141e9-bdc2-46aa-bb1d-a12abe6dcfaa"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "2c0eecc7-2657-4ed1-8ff5-b6749480ff48",
         "name": [
@@ -472,6 +532,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/2c0eecc7-2657-4ed1-8ff5-b6749480ff48"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -594,6 +674,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/dbd0f986-dcc8-4e71-aeda-e7363a40c282"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "104d74bb-3cc1-47ce-95e2-651be971931e",
         "name": [
@@ -708,6 +808,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/104d74bb-3cc1-47ce-95e2-651be971931e"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -830,6 +950,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/e84aa85f-03d7-48ae-938a-8b642a41822f"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "c280cda8-5a06-4ce9-bc9f-2054b7644d5b",
         "name": [
@@ -944,6 +1084,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c280cda8-5a06-4ce9-bc9f-2054b7644d5b"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -1066,6 +1226,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/2e00b5d3-46e6-46a7-a9d5-9870df7b803b"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "6d214bcf-c6e4-4b53-acf5-112c7a629577",
         "name": [
@@ -1180,6 +1360,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/6d214bcf-c6e4-4b53-acf5-112c7a629577"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -1302,6 +1502,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/15a0d14b-d7dd-4984-b00c-c731b8f37ba2"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "48bae3df-32a1-4281-a858-96795c2c50f6",
         "name": [
@@ -1416,6 +1636,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/48bae3df-32a1-4281-a858-96795c2c50f6"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -1538,6 +1778,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/9d41ec9c-5b9e-400a-ac71-8cae201e057e"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "a67d2944-300b-4d5b-8ff3-54a77dffbcf7",
         "name": [
@@ -1652,6 +1912,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/a67d2944-300b-4d5b-8ff3-54a77dffbcf7"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -1774,6 +2054,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/4541081e-5945-47f8-a38a-012068f1b525"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "6a85289e-32c2-40e6-9985-2508d1e3c30d",
         "name": [
@@ -1888,6 +2188,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/6a85289e-32c2-40e6-9985-2508d1e3c30d"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -2010,6 +2330,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1a090b7b-b453-4e04-b655-0dde98d34dd9"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "d80a40a6-3064-4e92-afd3-dcd70561e234",
         "name": [
@@ -2124,6 +2464,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/d80a40a6-3064-4e92-afd3-dcd70561e234"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -2246,6 +2606,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1ae39ca4-39ce-4cbc-90b9-d5cbd1c1b60c"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "fa6e001d-bb77-449a-b868-2db97e356c20",
         "name": [
@@ -2360,6 +2740,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/fa6e001d-bb77-449a-b868-2db97e356c20"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -2482,6 +2882,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/4b259696-02fe-4e0d-89fe-9e8794b71597"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "3ef9a6df-2b4b-4f95-baa6-9928794cb94a",
         "name": [
@@ -2596,6 +3016,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/3ef9a6df-2b4b-4f95-baa6-9928794cb94a"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -2718,6 +3158,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/faef8b36-c663-4c85-955f-2b0be7fcb898"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "48c9119d-97f6-4342-9aa6-4bdb9466acb7",
         "name": [
@@ -2832,6 +3292,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/48c9119d-97f6-4342-9aa6-4bdb9466acb7"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -2954,6 +3434,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/128ab273-dcdb-418f-96c6-7e85bf967301"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "63e9464e-214e-4a4f-a48b-8144122da970",
         "name": [
@@ -3068,6 +3568,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/63e9464e-214e-4a4f-a48b-8144122da970"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -3190,6 +3710,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/ec7048d6-8793-4486-9360-dfa1fe3a5c5c"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "6592721d-e61b-45ce-97d2-fafd9887190f",
         "name": [
@@ -3304,6 +3844,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/6592721d-e61b-45ce-97d2-fafd9887190f"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -3426,6 +3986,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/cffd6bab-a781-4503-a081-1152ee46259b"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "a01b53d6-9c37-416a-b2a5-8a8c2d7c3a08",
         "name": [
@@ -3540,6 +4120,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/a01b53d6-9c37-416a-b2a5-8a8c2d7c3a08"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -3662,6 +4262,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c06eb743-7b24-4688-9a8f-0b5b12042172"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "aeff5328-d7cf-4ff2-b25f-0db1ab0bf2a3",
         "name": [
@@ -3776,6 +4396,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/aeff5328-d7cf-4ff2-b25f-0db1ab0bf2a3"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -3898,6 +4538,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/a34d5f0c-2e7e-4dfb-9fb5-31dda6783fa2"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "e1044168-9b06-41bc-b09a-c1c6be2a5cc1",
         "name": [
@@ -4012,6 +4672,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/e1044168-9b06-41bc-b09a-c1c6be2a5cc1"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -4134,6 +4814,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b2267b2d-8800-42f3-8ed8-c2f23d32396f"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "7adf567e-9552-4891-b2b5-a3dd68783101",
         "name": [
@@ -4248,6 +4948,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/7adf567e-9552-4891-b2b5-a3dd68783101"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -4370,6 +5090,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/de4477b2-321b-425c-9918-0a40f26e0fb8"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "1c6de7b3-8db2-4bb7-83fd-af5b45006636",
         "name": [
@@ -4484,6 +5224,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1c6de7b3-8db2-4bb7-83fd-af5b45006636"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "anomaly"
       }
     },
     {
@@ -4606,6 +5366,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/46c01560-02d2-4eda-9385-4fc0060f1365"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "4325f4f0-e748-426a-8abd-decaa5f0591f",
         "name": [
@@ -4720,6 +5500,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/4325f4f0-e748-426a-8abd-decaa5f0591f"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -4842,6 +5642,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f44d71fc-fa11-43f0-bc56-00bad3c8b167"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "3f1f7b19-efde-411b-96ee-51c176776358",
         "name": [
@@ -4956,6 +5776,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/3f1f7b19-efde-411b-96ee-51c176776358"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -5078,6 +5918,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f214c3a3-0e35-4ffa-8ad4-b9946db5c040"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "64cf8505-d6ef-4532-9069-218f33087f0f",
         "name": [
@@ -5192,6 +6052,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/64cf8505-d6ef-4532-9069-218f33087f0f"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -5314,6 +6194,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/9cd8c692-dfee-4741-adbd-6456720c62de"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "74241a74-b583-466b-a582-515fd11b40aa",
         "name": [
@@ -5428,6 +6328,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/74241a74-b583-466b-a582-515fd11b40aa"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -5550,6 +6470,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c6b17404-4a28-49b6-911b-9bd1d01d12fa"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "3f34ef47-a8a6-43e9-b57d-8089144513a4",
         "name": [
@@ -5664,6 +6604,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/3f34ef47-a8a6-43e9-b57d-8089144513a4"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -5786,6 +6746,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/a8a7c51e-3637-408d-a8b2-0b33c4048423"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "e654796f-322c-413a-bcea-d97f3a1b1984",
         "name": [
@@ -5900,6 +6880,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/e654796f-322c-413a-bcea-d97f3a1b1984"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -6022,6 +7022,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/aaeda6ce-d9e2-44ef-9089-1812f73defa9"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "7b84faed-77ab-4948-8d09-7a917082b1b5",
         "name": [
@@ -6136,6 +7156,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/7b84faed-77ab-4948-8d09-7a917082b1b5"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -6258,6 +7298,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/46296c31-ec11-4ce9-a3bc-3dd576c56c43"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "11979586-f2d6-4242-84cf-7118545d2463",
         "name": [
@@ -6372,6 +7432,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/11979586-f2d6-4242-84cf-7118545d2463"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -6494,6 +7574,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/06fbe7bd-1432-420a-8340-77259c75df1b"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "f87c79e6-d816-440c-a772-fbeb47c66837",
         "name": [
@@ -6608,6 +7708,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/f87c79e6-d816-440c-a772-fbeb47c66837"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -6730,6 +7850,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/3501f279-385c-4b71-a06f-26c2989053f0"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "1903045e-54a7-463b-b30e-a47b2eff12cb",
         "name": [
@@ -6844,6 +7984,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/1903045e-54a7-463b-b30e-a47b2eff12cb"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "anomaly"
       }
     },
     {
@@ -6966,6 +8126,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/a1efafc5-09de-4980-8c2c-f6bf1303840f"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "6115dada-9d85-400f-8560-b8ae3cf62ede",
         "name": [
@@ -7080,6 +8260,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/6115dada-9d85-400f-8560-b8ae3cf62ede"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "anomaly"
       }
     },
     {
@@ -7202,6 +8402,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/664fbe7b-5620-4690-86c0-e686877eca79"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "0ff1c711-e559-40e3-a911-14f8cc780937",
         "name": [
@@ -7316,6 +8536,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/0ff1c711-e559-40e3-a911-14f8cc780937"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -7438,6 +8678,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b68ee309-d6dc-4194-a535-5fe5354e6345"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "82a94d31-30f5-42d5-8621-dd89cd3b84a7",
         "name": [
@@ -7552,6 +8812,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/82a94d31-30f5-42d5-8621-dd89cd3b84a7"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -7674,6 +8954,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/9786ca6f-247e-4d88-b2d5-32b2c63690be"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "6fb4c3e6-a2ac-4f00-b7c9-d2092b61d86b",
         "name": [
@@ -7788,6 +9088,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/6fb4c3e6-a2ac-4f00-b7c9-d2092b61d86b"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -7910,6 +9230,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/12bbbe8c-25dc-4046-9359-30a8efe665a6"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "746c073e-3e25-45a4-81eb-de276757634b",
         "name": [
@@ -8024,6 +9364,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/746c073e-3e25-45a4-81eb-de276757634b"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -8146,6 +9506,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c11ef51a-c6b2-4b51-b79a-2f90f6e215fb"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "anomaly"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "fddd14b5-bcc5-44f2-a4cd-4a669bafed55",
         "name": [
@@ -8260,6 +9640,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/fddd14b5-bcc5-44f2-a4cd-4a669bafed55"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -8382,6 +9782,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/ed705537-013d-48d4-b3e4-d01d7b6a080b"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "465d2b13-683c-4591-a754-3681f8d65b20",
         "name": [
@@ -8496,6 +9916,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/465d2b13-683c-4591-a754-3681f8d65b20"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "anomaly"
       }
     },
     {
@@ -8618,6 +10058,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/a5aeabe7-d92b-4246-9101-5c4db3d57f56"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "daa9a3b3-c274-4ecb-8956-011e83effa22",
         "name": [
@@ -8732,6 +10192,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/daa9a3b3-c274-4ecb-8956-011e83effa22"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -8854,6 +10334,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c7887186-33fd-49b3-b763-d383895a5876"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "160f6286-f7b0-4015-b211-ec9279fc81da",
         "name": [
@@ -8968,6 +10468,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/160f6286-f7b0-4015-b211-ec9279fc81da"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -9090,6 +10610,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/790346e3-20d7-455f-80f9-c974583b03a2"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "4fab546c-21a0-4e62-abd2-f7efabda73f9",
         "name": [
@@ -9204,6 +10744,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/4fab546c-21a0-4e62-abd2-f7efabda73f9"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -9326,6 +10886,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/c8218565-54c5-41bd-908a-7daba310c2c9"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "ad0244a1-d30c-4c52-845f-2863f9b1fbe0",
         "name": [
@@ -9440,6 +11020,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/ad0244a1-d30c-4c52-845f-2863f9b1fbe0"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -9562,6 +11162,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/4797ad22-1107-4b42-b9ae-f36c5b9d20f7"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "a1b9306c-12fe-47de-8522-cdaa59aa256f",
         "name": [
@@ -9676,6 +11296,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/a1b9306c-12fe-47de-8522-cdaa59aa256f"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -9798,6 +11438,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/9143e378-8d00-4866-96f7-edfa8ea53480"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "5226342c-7381-47ac-b6ae-05809e65d909",
         "name": [
@@ -9912,6 +11572,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/5226342c-7381-47ac-b6ae-05809e65d909"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -10034,6 +11714,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/6e0b7577-518e-4c6d-8284-17e1ddae8dcc"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "ad4b2c5e-6860-4179-833d-ce4948d9ff27",
         "name": [
@@ -10148,6 +11848,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/ad4b2c5e-6860-4179-833d-ce4948d9ff27"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -10270,6 +11990,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/e8b1751e-1c0f-4091-a17f-b3e8d9f29d76"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "41f72094-01a9-4a90-8ce1-54b26710dcf8",
         "name": [
@@ -10384,6 +12124,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/41f72094-01a9-4a90-8ce1-54b26710dcf8"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -10506,6 +12266,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/10d7643c-c082-45ae-8881-be071b2355ff"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "50e99ec9-c419-4afb-b333-3a5773f688c3",
         "name": [
@@ -10620,6 +12400,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/50e99ec9-c419-4afb-b333-3a5773f688c3"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -10742,6 +12542,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/8857e9fd-16e9-4ca5-aa25-318f1ecc50e7"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "6c4896f7-9e0f-4d68-9e11-456a0074dc03",
         "name": [
@@ -10856,6 +12676,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/6c4896f7-9e0f-4d68-9e11-456a0074dc03"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -10978,6 +12818,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/af5623d9-469d-4d5b-9b8c-8397fe08b83a"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "76da788d-6725-400a-8dcf-fb4661104404",
         "name": [
@@ -11092,6 +12952,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/76da788d-6725-400a-8dcf-fb4661104404"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -11214,6 +13094,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/b7d2546d-c61b-4b77-9748-c5e9e5321632"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "0345d4a7-2c55-44ea-af3c-8fc4c5b79260",
         "name": [
@@ -11328,6 +13228,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/0345d4a7-2c55-44ea-af3c-8fc4c5b79260"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -11450,6 +13370,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/51997fce-7d36-4078-9714-bf97c86dd54a"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "296c74e0-2e9a-4511-8982-dd8f18af5682",
         "name": [
@@ -11564,6 +13504,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/296c74e0-2e9a-4511-8982-dd8f18af5682"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     },
     {
@@ -11686,6 +13646,26 @@
     },
     {
       "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/d29beab9-94a1-42de-aab7-a801643e97aa"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
+      }
+    },
+    {
+      "resource": {
         "resourceType": "Patient",
         "id": "222b0754-0473-46e4-ab63-bc073fca38ca",
         "name": [
@@ -11800,6 +13780,26 @@
             }
           }
         ]
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "status": "final",
+        "code": {
+          "coding": [
+            {
+              "system": "https://example.org/fhir/ai-validator-codes",
+              "code": "ai-anomaly-status",
+              "display": "AI Anomaly Status"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "Patient/222b0754-0473-46e4-ab63-bc073fca38ca"
+        },
+        "effectiveDateTime": "2024-01-01T00:00:00",
+        "valueString": "normal"
       }
     }
   ]

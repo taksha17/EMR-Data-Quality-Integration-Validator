@@ -3,3 +3,4 @@ pydantic
 faker
 cerberus
 hl7apy
+scikit-learn
