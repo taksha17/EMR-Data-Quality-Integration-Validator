@@ -1,6 +1,6 @@
-from faker import Faker
 import pandas as pd
 import random
+from faker import Faker
 
 fake = Faker()
 
@@ -17,6 +17,8 @@ def generate_emr_data(n=100):
             "heart_rate": random.randint(50, 120),
             "blood_pressure_systolic": random.randint(90, 180),
             "blood_pressure_diastolic": random.randint(60, 100),
+            # Adding a notes column with free-text data for LLM processing and implementing Langchian / OPENAI further
+            "notes": fake.text(max_nb_chars=200)
         }
         records.append(record)
     return pd.DataFrame(records)

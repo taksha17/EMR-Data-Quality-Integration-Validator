@@ -4,3 +4,6 @@ faker
 cerberus
 hl7apy
 scikit-learn
+langchain
+langchain-openai
+openai

@@ -1,115 +1,3 @@
-# import pandas as pd
-# import uuid
-# import json
-# from datetime import date # Standard Python date object
-# from fhir.resources.patient import Patient
-# from fhir.resources.observation import Observation
-# from fhir.resources.humanname import HumanName
-# from fhir.resources.condition import Condition
-# from fhir.resources.reference import Reference
-# from fhir.resources.codeableconcept import CodeableConcept
-# from fhir.resources.coding import Coding
-# from fhir.resources.bundle import Bundle, BundleEntry
-
-# import pandas as pd
-# import uuid
-# import json
-# from datetime import date
-# from fhir.resources.patient import Patient
-# from fhir.resources.observation import Observation
-# from fhir.resources.humanname import HumanName
-# from fhir.resources.condition import Condition
-# from fhir.resources.reference import Reference
-# from fhir.resources.codeableconcept import CodeableConcept
-# from fhir.resources.coding import Coding
-# from fhir.resources.bundle import Bundle, BundleEntry
-
-# def convert_emr_to_fhir(sample_emr_csv: str, output_json: str):
-#     df = pd.read_csv(sample_emr_csv)
-#     entries = []
-
-#     for _, row in df.iterrows():
-#         patient_id = row["patient_id"]
-
-#         # --- Patient Resource ---
-#         patient = Patient(
-#             id=patient_id,
-#             gender=row["gender"].lower(),
-#             birthDate=row["dob"],
-#             name=[HumanName(text=row["name"])],
-#             telecom=[{"system": "email", "value": row["email"], "use": "home"}]
-#         )
-#         entries.append(BundleEntry(resource=patient))
-
-#         # --- Condition Resource ---
-#         # FIX: Added the required 'clinicalStatus' field.
-#         condition = Condition(
-#             subject=Reference(reference=f"Patient/{patient_id}"),
-#             code=CodeableConcept(
-#                 coding=[Coding(system="http://hl7.org/fhir/sid/icd-10", code=row["diagnosis_code"])]
-#             ),
-#             clinicalStatus=CodeableConcept(
-#                 coding=[
-#                     Coding(
-#                         system="http://terminology.hl7.org/CodeSystem/condition-clinical",
-#                         code="active"
-#                     )
-#                 ]
-#             )
-#         )
-#         entries.append(BundleEntry(resource=condition))
-
-#         # --- Observation Time ---
-#         observation_time = date(2024, 1, 1)
-
-#         # --- Observation: Heart Rate ---
-#         heart_rate = Observation(
-#             status="final",
-#             effectiveDateTime=observation_time,
-#             code=CodeableConcept(
-#                 coding=[Coding(system="http://loinc.org", code="8867-4", display="Heart rate")]
-#             ),
-#             subject=Reference(reference=f"Patient/{patient_id}"),
-#             valueQuantity={"value": row["heart_rate"], "unit": "beats/minute"},
-#         )
-#         entries.append(BundleEntry(resource=heart_rate))
-
-#         # --- Observation: Blood Pressure ---
-#         bp = Observation(
-#             status="final",
-#             effectiveDateTime=observation_time,
-#             code=CodeableConcept(
-#                 coding=[Coding(system="http://loinc.org", code="85354-9", display="Blood pressure panel")]
-#             ),
-#             component=[
-#                 {
-#                     "code": {"coding": [{"system": "http://loinc.org", "code": "8480-6", "display": "Systolic"}]},
-#                     "valueQuantity": {"value": row["blood_pressure_systolic"], "unit": "mmHg"}
-#                 },
-#                 {
-#                     "code": {"coding": [{"system": "http://loinc.org", "code": "8462-4", "display": "Diastolic"}]},
-#                     "valueQuantity": {"value": row["blood_pressure_diastolic"], "unit": "mmHg"}
-#                 }
-#             ],
-#             subject=Reference(reference=f"Patient/{patient_id}")
-#         )
-#         entries.append(BundleEntry(resource=bp))
-
-#     # --- Final Bundle ---
-#     fhir_bundle = Bundle(
-#         type="collection",
-#         entry=entries
-#     )
-
-#     with open(output_json, "w") as f:
-#         f.write(fhir_bundle.json(indent=2))
-
-#     print(f"✅ Converted to FHIR format: {output_json}")
-
-
-# if __name__ == "__main__":
-#     convert_emr_to_fhir("sample_emr.csv", "output_fhir.json")
-
 import pandas as pd
 import uuid
 import json
@@ -124,18 +12,44 @@ from fhir.resources.coding import Coding
 from fhir.resources.bundle import Bundle, BundleEntry
 import os
 
-def convert_emr_to_fhir(input_csv: str, output_json: str):
-    # Ensure the input CSV exists
-    if not os.path.exists(input_csv):
-        print(f"Error: Input file '{input_csv}' not found.")
-        print("Please run validate_emr.py first to create the validated output.")
-        return
+# --- Importing Langchain/OpenAI API's ---
+from langchain.prompts import ChatPromptTemplate
+from langchain_openai import ChatOpenAI
+from langchain.schema.output_parser import StrOutputParser
 
+# Initializing the LLM (using OpenAI's gpt-3.5-turbo for demo purpose)
+# Here we need to make sure we have our OPENAI_API_KEY set as an environment variable
+llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.0)
+
+# Creating a prompt template for our task
+prompt_template = ChatPromptTemplate.from_messages([
+    ("system", "You are a medical assistant that extracts information from clinical notes."),
+    ("user", "Extract a single primary diagnosis from the following note and return only the diagnosis name, not the code or any other text. If no diagnosis is found, return 'No Diagnosis Found'. The note is: {notes}"),
+])
+
+# Creating a simple chain
+chain = prompt_template | llm | StrOutputParser()
+
+def convert_emr_to_fhir(input_csv: str, output_json: str):
+    # This script now reads the CSV with the notes column
     df = pd.read_csv(input_csv)
     entries = []
 
     for _, row in df.iterrows():
         patient_id = row["patient_id"]
+        
+        # --- LLM Processing of Notes ---
+        notes_text = row.get("notes")
+        llm_diagnosis_name = "No Diagnosis Found"
+        if notes_text and notes_text != "No Diagnosis Found":
+            try:
+                # Use the LLM chain to get the diagnosis from the notes
+                llm_diagnosis_name = chain.invoke({"notes": notes_text})
+                # Clean up the output (remove extra quotes, etc.)
+                llm_diagnosis_name = llm_diagnosis_name.strip('\"')
+            except Exception as e:
+                print(f"Error invoking LLM for patient {patient_id}: {e}")
+                llm_diagnosis_name = "LLM Extraction Failed"
 
         # --- Patient Resource ---
         patient = Patient(
@@ -147,30 +61,32 @@ def convert_emr_to_fhir(input_csv: str, output_json: str):
         )
         entries.append(BundleEntry(resource=patient))
 
-        # --- Condition Resource ---
-        condition = Condition(
-            subject=Reference(reference=f"Patient/{patient_id}"),
-            code=CodeableConcept(
-                coding=[Coding(system="http://hl7.org/fhir/sid/icd-10", code=row["diagnosis_code"])]
-            ),
-            clinicalStatus=CodeableConcept(
-                coding=[
-                    Coding(
-                        system="http://terminology.hl7.org/CodeSystem/condition-clinical",
-                        code="active"
-                    )
-                ]
+        # --- LLM-Extracted Condition Resource ---
+        if llm_diagnosis_name != "No Diagnosis Found" and llm_diagnosis_name != "LLM Extraction Failed":
+            llm_condition = Condition(
+                subject=Reference(reference=f"Patient/{patient_id}"),
+                code=CodeableConcept(
+                    coding=[Coding(
+                        system="https://example.org/fhir/llm-diagnoses",
+                        code=llm_diagnosis_name.replace(" ", "_").lower(),
+                        display=llm_diagnosis_name
+                    )]
+                ),
+                clinicalStatus=CodeableConcept(
+                    coding=[
+                        Coding(
+                            system="http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            code="active"
+                        )
+                    ]
+                )
             )
-        )
-        entries.append(BundleEntry(resource=condition))
-
-        # --- Observation Time ---
-        observation_time = date(2024, 1, 1)
-
+            entries.append(BundleEntry(resource=llm_condition))
+        
         # --- Observation: Heart Rate ---
         heart_rate = Observation(
             status="final",
-            effectiveDateTime=observation_time,
+            effectiveDateTime=date(2024, 1, 1),
             code=CodeableConcept(
                 coding=[Coding(system="http://loinc.org", code="8867-4", display="Heart rate")]
             ),
@@ -182,7 +98,7 @@ def convert_emr_to_fhir(input_csv: str, output_json: str):
         # --- Observation: Blood Pressure ---
         bp = Observation(
             status="final",
-            effectiveDateTime=observation_time,
+            effectiveDateTime=date(2024, 1, 1),
             code=CodeableConcept(
                 coding=[Coding(system="http://loinc.org", code="85354-9", display="Blood pressure panel")]
             ),
@@ -200,25 +116,6 @@ def convert_emr_to_fhir(input_csv: str, output_json: str):
         )
         entries.append(BundleEntry(resource=bp))
 
-        # --- NEW: Observation for AI Anomaly Score and Status ---
-        anomaly_obs = Observation(
-            status="final",
-            effectiveDateTime=observation_time,
-            code=CodeableConcept(
-                # Using a custom code for the AI anomaly observation
-                coding=[Coding(
-                    system="https://example.org/fhir/ai-validator-codes", 
-                    code="ai-anomaly-status", 
-                    display="AI Anomaly Status"
-                )]
-            ),
-            subject=Reference(reference=f"Patient/{patient_id}"),
-            valueString=str(row["anomaly_status"]),
-            # You can also add the score as a valueQuantity if needed
-            # For simplicity, we are just storing the status in this example
-        )
-        entries.append(BundleEntry(resource=anomaly_obs))
-
     # --- Final Bundle ---
     fhir_bundle = Bundle(
         type="collection",
@@ -228,8 +125,9 @@ def convert_emr_to_fhir(input_csv: str, output_json: str):
     with open(output_json, "w") as f:
         f.write(fhir_bundle.json(indent=2))
 
-    print(f"✅ Converted to FHIR format: {output_json}")
+    print(f"✅ Converted to FHIR format with LLM insights: {output_json}")
 
 
 if __name__ == "__main__":
-    convert_emr_to_fhir("validated_output/valid_emr.csv", "output_fhir.json")
+    # Note: This script now reads the standard sample_emr.csv
+    convert_emr_to_fhir("sample_emr.csv", "output_fhir.json")

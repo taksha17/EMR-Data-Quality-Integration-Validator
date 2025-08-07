@@ -14,7 +14,7 @@ class EMRRecord(BaseModel):
     blood_pressure_systolic: int
     blood_pressure_diastolic: int
 
-    # NEW FIELDS FOR ANOMALY DETECTION
+    # THIS FIELDS FOR ANOMALY DETECTION AND OPTIONAL, IF WE DONT WANT TO USE AI ANOMALY DETECTION AND REDUCE THE SCOPE OF THE PROJECT
     anomaly_score: Optional[float] = None
     anomaly_status: Optional[str] = None
 
